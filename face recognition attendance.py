@@ -15,7 +15,7 @@ ayush_encoding = face_recognition.face_encodings(ayush_image)[0]
 ratan_image = face_recognition.load_image_file(r"C:\Users\ayush\Downloads\ratan tata.jpeg")
 ratan_encoding = face_recognition.face_encodings(ratan_image)[0]
 
-jeff_image = face_recognition.load_image_file(r"C:\Users\ayush\Downloads\bald jeff.jpeg")
+jeff_image = face_recognition.load_image_file(r"C:\Users\ayush\Downloads\jeff.jpeg")
 jeff_encoding = face_recognition.face_encodings(jeff_image)[0]
 
 known_faces_encoding = [ayush_encoding,ratan_encoding,jeff_encoding]
